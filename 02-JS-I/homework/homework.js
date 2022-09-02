@@ -262,7 +262,7 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
 var area = (base*altura) / 2;
-return area
+return area;
 }
 
 
@@ -271,7 +271,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var cambioEndolares = euro * 1.20;
-  return cambioEndolares
+  return cambioEndolares;
 }
 
 

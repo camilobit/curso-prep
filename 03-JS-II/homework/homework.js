@@ -5,13 +5,24 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+
+  // if (x >= 18){
+  //   return 'Allowed'
+  // } else {
+  //   return 'Not allowed'
+  // }
+  
+
+
 }
+
   
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
@@ -19,7 +30,13 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+
+  // 1 = "Online"
+  // 2 = "Away"
+
+
 }
+
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -28,6 +45,12 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+
+  if (idioma) 
+  ("aleman" == "Guten tag" || "mandarin" == "Ni Hao" || "ingles" == "Hello" || "undefined" == "Hola") 
+  {
+    return idioma;
+  } 
 }
 
 function colors(color) {
@@ -38,6 +61,25 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+
+switch color {
+  case "blue";
+   console.log ("This is blue");
+   break;
+  case "red";
+   console.log ("This is red");
+   break;
+  case "green";
+   console.log ("This is green");
+   break; 
+  case "orange";
+   console.log ("This is orange");
+   break;
+  case default;
+   console.log ("Color not found");
+   break;
+}
+
 }
 
 function esDiezOCinco(numero) {

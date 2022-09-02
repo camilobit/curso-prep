@@ -1,0 +1,38 @@
+for: 
+for en un método que se usa para hacer muchas veces la misma cosa pero cambiando en cada ves algo que queramos.
+por ejemplo decirle a un computador que escriba los numeros de 1 a 1000, si se hace a mano se demora mucho, con la función for el computador lo puede hacer automáticamente.
+también si queremos que coloque solo los números pares también se lo podemos pedir, es muy útil la función for para optimizar el trabajo.
+
+&&: priemro hay que entender que es un operador lógico, eso significa que nos ayuda a ver si algo es o no; " verdadero ó falso", y es parecido a un condicional o mas bien se usa para dar dos condiciones a algo, por ejemplo, x numero debe ser > 10 "( Y, &&)" && que x numero puede ser el mismo u otro, y colocamos otra condición vamos a poner un ejemplo para que sea más claro.
+if (X < 10 && X === 5) {
+    console.log('si la X fuera el 5 ambas declaraciones serian ciertas el 5 es menor que 10 y 5 es igual a 5 como ambas son ciertas al usar el && ejecuta esa orden') ('pero si no fuera 5 supongamos que la X es 9, 9 es menor que 10 pero no es igual a 5 en ese caso no se ejecuta la acción y devuelve el resultado a falso)
+} 
+para trabajar con este operador se van a tomar en cuenta ambas condiciones
+
+
+||: es muy parecido al anterior operador la diferencia es que se entiende como un 'Ó' es decir, es una cosa ' Ó ' es la otra si ambas se cumplen estan bien, si se cumple solo una condición seguirá arrojando verdadero, pero si ambas no se cumplen devolvera a falso y no se ejecutará el código
+ejemplo:
+
+if (100 > 10 || 10 === 10) {
+    console.log ('ambas declaraciones son verdaderas el codigo se ejecutará')
+}
+
+if (10 === 9 || 10 > 9) {
+    console.log ('una es verdadera, en ese caso se ejecutará el código')
+}
+
+if (10 === 9 || 1 > 9) {
+    console.log ('amabas declaraciones son falsas, por lo tanto el código no se ejecutá')
+}
+
+!:se puede entender como una negación un 'no' para que sea mas claro veamos unos ejemplos
+
+1 == 1 true 
+1 == uno true aunque son diferentes tipos datos son en realidad el mismo 
+1 === 1 es true
+1 === uno falso no sol el mismo tipo de dato asi que no son estrcitamente iguales y que pasa si agregamos el !
+
+if (!(1 === 1)){
+    console.log(el resultado será falso, lo podemos leer de la siguiente manera -1 no es extrictamente igual 1- la respuesta es 'no' ó 'false' por que 1 si es estrictamente igual a 1) en este caso el código no se ejecutará.
+} 
+muchas personas intrepetan como solamente cambiar al contrario la logica boleana con el operador ! pero para mi la forma de leer la condición es la que cambia, en lugar de interpretar el resultado el preciso interpretar el enunciado.
